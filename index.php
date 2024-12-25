@@ -105,7 +105,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
             <div class="col-8">
               <h3>Siti Fauziah</h3>
               <p>Putri Ke-3 dari 4 bersaudara, mempunyai 2 orang kakak lelaki dan 1 adik perempuan.</p>
-              <p>Putra dari Bpk. Sofyan Said <br> dan <br> Ibu Samsiah</p>
+              <p>Putri dari Bpk. Sofyan Said <br> dan <br> Ibu Samsiah</p>
             </div>
           </div>
         </div>
