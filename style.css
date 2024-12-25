@@ -97,7 +97,7 @@ body {
 .gifts h2 {
   color: var(--pink);
   font-family: 'Sacramento';
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -402,7 +402,7 @@ footer li {
   }
 
   .simply-countdown > .simply-section {
-    padding: 70px;
+    padding: 40px;
   }
 
   .home .heart {
@@ -410,12 +410,12 @@ footer li {
   }
 
   .timeline::before {
-    left: 60px;
+    left: 50px;
   }
 
   .timeline li .timeline-image {
-    left: 15px;
-    margin-left: 45px;
+    left: 10px;
+    margin-left: 30px;
     top: 16px;
   }
 
@@ -468,11 +468,11 @@ footer li {
 /* mobile phone */
 @media (max-width: 576px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 40px;
     margin: 3px;
   }
 
@@ -494,3 +494,4 @@ footer li {
     top: 31px;
   }
 }
+

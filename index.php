@@ -47,10 +47,10 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
   <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
     <div class="container">
       <a class="navbar-brand" href="#">Kondangan</a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      <!-- <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dino</h5>
@@ -86,8 +86,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
           <div class="row">
             <div class="col-8 text-end">
               <h3>Waluyo</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque praesentium aut ipsa perferendis,
-                incidunt soluta?</p>
+              <p>Putra pertama dari 2 bersaudara, mempunyai adik lelaki.</p>
               <p>Putra dari Bpk. Suratman <br> dan <br> Ibu Minatun</p>
             </div>
             <div class="col-4">
@@ -105,8 +104,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
             </div>
             <div class="col-8">
               <h3>Siti Fauziah</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque praesentium aut ipsa perferendis,
-                incidunt soluta?</p>
+              <p>Putri Ke-3 dari 4 bersaudara, mempunyai 2 orang kakak lelaki dan 1 adik perempuan.</p>
               <p>Putra dari Bpk. Sofyan Said <br> dan <br> Ibu Samsiah</p>
             </div>
           </div>
@@ -122,7 +120,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
         <div class="col-md-8 col-10 text-center">
           <h2>Informasi Acara</h2>
           <p class="alamat">Alamat: Kampung Kilasah I, Kecamatan Kasemen. <br> JRT/RW 001/001, Kota
-            Serang, Banten</p>
+            Serang, Banten</p> 
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1908.7581181928292!2d106.18694495787655!3d-6.078174689556402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDQnNDAuOSJTIDEwNsKwMTEnMTYuNiJF!5e0!3m2!1sid!2sid!4v1735123610119!5m2!1sid!2sid" 
               width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -185,8 +183,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
         <div class="col-md-8 col-10 text-center">
           <span>Bagaimana Cinta Kami Bersemi</span>
           <h2>Cerita Kami</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, similique non soluta nulla asperiores
-            voluptatem.</p>
+          <p>Dari yang tadinya bukan siapa-siapa akan jadi ibu dan bapa.</p>
         </div>
       </div>
 
@@ -194,44 +191,44 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
         <div class="col">
           <ul class="timeline">
             <li>
-              <div class="timeline-image" style="background-image: url(img/sman23.jpg);"></div>
+              <div class="timeline-image" style="background-image: url(img/gallery/thumbnail/3.png);"></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h3>Pertama Bertemu</h3>
-                  <span>1 Juni 2000</span>
+                  <span>November 2020</span>
                 </div>
                 <div class="timeline-body">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi autem? Commodi autem quo quia?
+                  <p>Salah satu organisasi mahasiswa mmepertemukan kami, walau umur berbeda hampir 5 tahun kami merasa pertemuan itu memberikan bekas
                   </p>
                 </div>
               </div>
 
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300);"></div>
+              <div class="timeline-image" style="background-image: url(img/gallery/thumbnail/2.png);"></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h3>Mulai Serius</h3>
-                  <span>1 Januari 2005</span>
+                  <span>Oktober 2022</span>
                 </div>
                 <div class="timeline-body">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto enim eaque obcaecati odit
-                    itaque explicabo quisquam quos at.
+                  <p>Kami menjalin komitmen bersama untuk menjalani hubungan yang bisa mengenal lebih dalam satu sama lain
                   </p>
                 </div>
               </div>
 
             </li>
             <li>
-              <div class="timeline-image" style="background-image: url(https://picsum.photos/301/301);"></div>
+              <div class="timeline-image" style="background-image: url(img/gallery/thumbnail/1.png);"></div>
+              <!-- <img src="img/gallery/thumbnail/1.png" alt="Sandhika & Nofa 1" class="img-fluid w-100 rounded"> -->
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h3>Tunangan</h3>
-                  <span>7 November 2009</span>
+                  <span>Juni 2024</span>
                 </div>
                 <div class="timeline-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, deleniti distinctio. Esse quas sit
-                  explicabo corporis magni qui expedita a.
+                <p>Kami memutuskan untuk menuju ke jenjang yang lebih serius dan tepat pada tanggal tersebut pertama kalinya keluarga kami bertemu dalam satu ruangan
+                </p>
                 </div>
               </div>
             </li>
@@ -241,7 +238,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
     </div>
   </section>
 
-  <section id="gallery" class="gallery">
+  <!-- <section id="gallery" class="gallery">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
@@ -289,7 +286,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- <section id="rsvp" class="rsvp">
     <div class="container">
@@ -369,16 +366,24 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
         </div>
       </div>
 
+
+
       <div class="row justify-content-center text-center">
         <div class="col-md-6">
           <ul class="list-group">
             <li class="list-group-item">
+              <!-- <div class="fw-bold">
+              <img src="img/bca.png" width="50px" alt="bca" class="img-responsive">
+              </div> -->
               <div class="fw-bold">BCA</div>
               5410638128 - WALUYO
             </li>
             <li class="list-group-item">
               <div class="fw-bold">BLU BY BCA DIGITAL</div>
               008047695404 - SITI FAUZIAH
+            </li>
+            <li class="list-group-item">
+            
             </li>
             <!-- <li class="list-group-item">
               <div class="fw-bold">Saweria</div>
@@ -410,7 +415,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
 
   <div id="audio-container">
     <audio id="song" autoplay loop>
-      <source src="audio/save-and-sound.mp3" type="audio/mp3">
+      <source src="audio/Kita-usahakan-rumah-itu.mp3" type="audio/mp3">
     </audio>
 
     <div class="audio-icon-wrapper" style="display: none;">
@@ -480,7 +485,7 @@ $tamu = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Tamu yang Terh
     }
 
     function playAudio() {
-      song.volume = 0.1;
+      song.volume = 0.3;
       audioIconWrapper.style.display = 'flex';
       song.play();
       isPlaying = true;
